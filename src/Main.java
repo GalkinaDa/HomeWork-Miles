@@ -5,7 +5,7 @@ public class Main {
 
         BonusMilesService service = new BonusMilesService();
         int price = 15_123;
-        int miles = service.calculate(price);
+        int miles = service.calculateMiles(price);
         System.out.println(miles);
 
     }
